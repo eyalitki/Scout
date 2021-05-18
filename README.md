@@ -75,7 +75,12 @@ Scout was developed and used in our following research projects:
 * [Check Point Research - Would you like some RCE with your Guacamole?](https://research.checkpoint.com/2020/apache-guacamole-rce/)
 * [Check Point Research - Linux Kernel MMap vulnerabilities](https://research.checkpoint.com/mmap-vulnerabilities-linux-kernel)
 
+## Maintenance
+Scout was developed during my years at Check Point Research, hence the original repository is: https://github.com/CheckPointSW/Scout.
+As I fully intened on keeping on maintaining and developing this repository, I forked the repository so to be positioned under my personal Github user.
+
+
 ## Contact
-Eyal Itkin (eyalit at checkpoint dot com)
+Eyal Itkin
 
 [@EyalItkin](https://twitter.com/EyalItkin)
