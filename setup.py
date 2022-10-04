@@ -20,7 +20,7 @@ setup(name='scout_debugger',
       test_requires=['pydocstyle', 'flake8', 'click'],
       classifiers=[
                     "Programming Language :: Python :: 3",
-                    "License :: OSI Approved :: MIT License (MIT License)",
+                    "License :: OSI Approved :: MIT License",
                     "Operating System :: OS Independent",
                   ],
       zip_safe=False)
