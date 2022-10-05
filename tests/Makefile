@@ -1,24 +1,19 @@
 MAKE=make
 RM=rm
-FILE32=exploit_me_32
-FILE64=exploit_me_64
+FILE=exploit_me
 
 # Build rules
-all: $(FILE32) $(FILE64)
+all: $(FILE)
 
-$(FILE32):
-	gcc -m32 exploit_me.c -o $(FILE32)
-
-$(FILE64):
-	gcc exploit_me.c -o $(FILE64)
+$(FILE):
+	gcc exploit_me.c -o $(FILE)
 
 # Rebuild this project
 rebuild: cleanall all
 
 # Clean this project
 clean:
-	$(RM) -f $(FILE32)
-	$(RM) -f $(FILE64)
+	$(RM) -f $(FILE)
 
 # Clean this project and all dependencies
 cleanall: clean
