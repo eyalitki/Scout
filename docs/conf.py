@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Scout'
-copyright = u'2021, Eyal Itkin'
+copyright = u'2022, Eyal Itkin'
 author = u'Eyal Itkin'
 
 # The short X.Y version
-version = u'2.0.0'
+version = u'2.1.0'
 # The full version, including alpha/beta/rc tags
-release = u'2.0.0'
+release = u'2.1.0'
 
 
 # -- General configuration ---------------------------------------------------
