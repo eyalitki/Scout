@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='scout_debugger',
-      version='2.0.0',
+      version='2.1.0',
       description='Instruction-based research debugger (a poor man\'s debugger)',
       author='Eyal Itkin',
       long_description=long_description,

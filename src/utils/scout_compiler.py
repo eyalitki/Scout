@@ -106,16 +106,18 @@ class scoutCompiler:
         # Apply the chosen settings
         self.is_pic = is_pic
         self.target_arc = arc_factory[arc](is_pic)
-        if is_native:
-            self.config_flags.append(flag_native_compiler)
-        else:
-            self.target_arc.setNotNative()
 
         # Configure the architecture
         self.target_arc.setEndianness(is_little_endian)
         self.target_arc.setBitness(is_32_bits)
         self.is_32_bits = is_32_bits
         self.is_little_endian = is_little_endian
+
+        # Apply possible cross compilation definitions
+        if is_native:
+            self.config_flags.append(flag_native_compiler)
+        else:
+            self.target_arc.setNotNative()
 
         # Store the values for the configuration flags
         self.config_flags.append(flag_32_bit        if is_32_bits       else flag_64_bit)

@@ -75,12 +75,12 @@ Supported Architectures
 -----------------------
 * x86 - Intel 32 bit
 * x64 - Intel 64 bit
-* ARM  32 bit - Little & Big endian (Including Thumb mode)
+* ARM 32 bit - Little & Big endian (Including Thumb mode)
+* AARCH64 - Arm 64 bit - Little & Big endian
 * MIPS 32 bit - Little & Big endian (Without Mips16 mode)
 
 **Future Architectures**
 
-* ARM  64 bit - Little & Big endian
 * MIPS 16 bit - Little & Big endian
 * MIPS 64 bit - Little & Big endian
 * ...

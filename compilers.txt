@@ -1,5 +1,6 @@
 Used compilers:
 ===============
 1. GCC compilation to 32 bits on 64 bits linux machines ==> sudo apt-get install gcc-multilib libc6-dev-i386
-2. ARM  cross compiler toolchain for Linux ==> sudo apt-get install gcc-arm-none-eabi
-3. MIPS cross compiler toolchain for Linux ==> sudo apt-get install gcc-mips-linux-gnu
+2. ARM (32bits) cross compiler toolchain for Linux ==> sudo apt-get install gcc-arm-none-eabi
+3. ARM (64bits) cross compiler toolchain for Linux ==> sudo apt-get install gcc-aarch64-linux-gnu
+4. MIPS cross compiler toolchain for Linux ==> sudo apt-get install gcc-mips-linux-gnu
