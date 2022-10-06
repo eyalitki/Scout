@@ -24,6 +24,7 @@ Installation
 ------------
 * Installing the python package: ``python3 setup.py install``
 * Dedicated compilers: A list of compilers per-architecture is found on ``compilers.txt``
+* There is also a requirements.txt file that lists needed pip packages used by the examples
 
 Beginner's Guide
 ----------------
