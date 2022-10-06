@@ -20,4 +20,4 @@ Each instruction is sent together with a network header that includes the follow
 The length field specifies the length, in bytes, of the serialized instruction.
 
 **Note:** All instructions should be serialized to NETWORK order.
-See ``manager\scout_api.py`` for a python sample that prepares the instructions for network transmission.
+See ``src\utils\scout_api.py`` for a python sample that prepares the instructions for network transmission.
