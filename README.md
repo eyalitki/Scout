@@ -83,4 +83,4 @@ As I fully intened on keeping on maintaining and developing this repository, I f
 ## Contact
 Eyal Itkin
 
-[@EyalItkin](https://twitter.com/EyalItkin)
+E-mail: eyal dot itkin at gmail dot com
